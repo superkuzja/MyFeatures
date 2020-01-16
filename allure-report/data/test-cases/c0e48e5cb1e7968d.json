@@ -1,0 +1,180 @@
+{
+  "uid" : "c0e48e5cb1e7968d",
+  "name" : "Загрузка данных из макета",
+  "historyId" : "ТестированиеЗагрузкиДанныхИзМакета.Загрузка данных из макета",
+  "time" : {
+    "start" : 1579208036655,
+    "stop" : 1579208038473,
+    "duration" : 1818
+  },
+  "description" : "Как Разработчик тестов\nХочу проверить загрузку маленького макета в информационную базу перед тестированием\nЧтобы убедиться в работоспособности механизма",
+  "descriptionHtml" : "<p>Как Разработчик тестов\nХочу проверить загрузку маленького макета в информационную базу перед тестированием\nЧтобы убедиться в работоспособности механизма</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+    "time" : {
+      "start" : 1579208036801,
+      "stop" : 1579208037121,
+      "duration" : 320
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Дано Я открыл новый сеанс TestClient или подключил уже существующий",
+      "time" : {
+        "start" : 1579208036801,
+        "stop" : 1579208036825,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "И    Я закрыл все окна клиентского приложения",
+      "time" : {
+        "start" : 1579208036825,
+        "stop" : 1579208037121,
+        "duration" : 296
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 2,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "Как Разработчик тестов\nХочу проверить загрузку маленького макета в информационную базу перед тестированием\nЧтобы убедиться в работоспособности механизма",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Дано существует макет \"fixtures\\ПричиныОтказаВЗайме.mxl\"",
+      "time" : {
+        "start" : 1579208037121,
+        "stop" : 1579208037197,
+        "duration" : 76
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "fixtures\\ПричиныОтказаВЗайме.mxl"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "И Я загружаю макет \"fixtures\\ПричиныОтказаВЗайме.mxl\" и сохраняю данные из макета в переменную \"ДанныеИзМакета\"",
+      "time" : {
+        "start" : 1579208037197,
+        "stop" : 1579208038171,
+        "duration" : 974
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "fixtures\\ПричиныОтказаВЗайме.mxl"
+      }, {
+        "name" : "Парам2",
+        "value" : "ДанныеИзМакета"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Тогда в справочнике \"ПричиныОтказаВЗайме\" появляется элемент с наименованием \"Запрет по линии ФМС\"",
+      "time" : {
+        "start" : 1579208038171,
+        "stop" : 1579208038206,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "ПричиныОтказаВЗайме"
+      }, {
+        "name" : "Парам2",
+        "value" : "Запрет по линии ФМС"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "И я удаляю загруженные данные \"ДанныеИзМакета\"",
+      "time" : {
+        "start" : 1579208038206,
+        "stop" : 1579208038473,
+        "duration" : 267
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "ДанныеИзМакета"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "tree"
+  }, {
+    "name" : "package",
+    "value" : "features"
+  }, {
+    "name" : "host",
+    "value" : "Microsoft Windows 10 version 10.0  (Build 18362)"
+  }, {
+    "name" : "feature",
+    "value" : "ТестированиеЗагрузкиДанныхИзМакета"
+  }, {
+    "name" : "story",
+    "value" : "Проверка"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "tree" ]
+  },
+  "source" : "c0e48e5cb1e7968d.json",
+  "parameterValues" : [ ]
+}

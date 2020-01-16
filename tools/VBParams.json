@@ -1,0 +1,17 @@
+{
+    "ВыполнитьСценарии": true,
+    "ЗавершитьРаботуСистемы": true,
+    "ЗакрытьTestClientПослеЗапускаСценариев": true,
+    "КаталогФич": "$workspaceRoot/features/",
+    "СписокТеговИсключение": [
+        "IgnoreOnCIMainBuild",
+        "FirstStart",
+        "Draft"
+    ],
+    "ДелатьОтчетВФорматеАллюр": true,
+    "КаталогOutputAllureБазовый": "$workspaceRoot/out/allure",
+    "ВыгружатьСтатусВыполненияСценариевВФайл": true,
+    "ПутьКФайлуДляВыгрузкиСтатусаВыполненияСценариев": "$workspaceRoot/out/vbStatus.log",
+    "ДелатьЛогВыполненияСценариевВТекстовыйФайл": true,
+    "ИмяФайлаЛогВыполненияСценариев": "$workspaceRoot/out/vbOnline.log"
+}

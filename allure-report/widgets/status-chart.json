@@ -1,0 +1,41 @@
+[ {
+  "uid" : "1bd6b3d13c77fb77",
+  "name" : "Подготовка печатной формы искового заявления",
+  "time" : {
+    "start" : 1579210484081,
+    "stop" : 1579210492458,
+    "duration" : 8377
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "dc7feee197b1dffb",
+  "name" : "Открытие формы связанного группового договора",
+  "time" : {
+    "start" : 1579210466193,
+    "stop" : 1579210481378,
+    "duration" : 15185
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "79672afbc4b30285",
+  "name" : "Загрузка данных из макета",
+  "time" : {
+    "start" : 1579210493021,
+    "stop" : 1579210512195,
+    "duration" : 19174
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2553c52dac0c6fe1",
+  "name" : "Открытьие формы группового соглашения из существующего договора",
+  "time" : {
+    "start" : 1579210481841,
+    "stop" : 1579210483614,
+    "duration" : 1773
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

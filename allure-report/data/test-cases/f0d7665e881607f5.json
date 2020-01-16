@@ -1,0 +1,80 @@
+{
+  "uid" : "f0d7665e881607f5",
+  "name" : "Подготовка печатной формы искового заявления",
+  "historyId" : "Проверка печати искового заявления.Подготовка печатной формы искового заявления",
+  "time" : {
+    "start" : 1579209169175,
+    "stop" : 1579209169464,
+    "duration" : 289
+  },
+  "description" : "Как Администратор системы\nХочу проверить формирование печатной формы искового заявления из формы договора займа\nЧтобы исключить ошибки в работе пользователей при обращениях в полицию",
+  "descriptionHtml" : "<p>Как Администратор системы\nХочу проверить формирование печатной формы искового заявления из формы договора займа\nЧтобы исключить ошибки в работе пользователей при обращениях в полицию</p>\n",
+  "status" : "unknown",
+  "statusMessage" : "Пустой адрес снипета у шага: Дано Я открыл новый сеанс TestClient или подключил уже существующий",
+  "statusTrace" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+    "time" : {
+      "start" : 1579209169463,
+      "stop" : 1579209169464,
+      "duration" : 1
+    },
+    "status" : "unknown",
+    "steps" : [ {
+      "name" : "Дано Я открыл новый сеанс TestClient или подключил уже существующий",
+      "time" : {
+        "start" : 1579209169463,
+        "stop" : 1579209169464,
+        "duration" : 1
+      },
+      "status" : "unknown",
+      "statusMessage" : "Пустой адрес снипета у шага: Дано Я открыл новый сеанс TestClient или подключил уже существующий",
+      "statusTrace" : "",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "tree"
+  }, {
+    "name" : "package",
+    "value" : "features"
+  }, {
+    "name" : "host",
+    "value" : "Microsoft Windows 10 version 10.0  (Build 18362)"
+  }, {
+    "name" : "feature",
+    "value" : "Проверка печати искового заявления"
+  }, {
+    "name" : "story",
+    "value" : "Проверка печатной форы искового заявления"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "tree" ]
+  },
+  "source" : "f0d7665e881607f5.json",
+  "parameterValues" : [ ]
+}

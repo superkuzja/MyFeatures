@@ -1,0 +1,81 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Проверка гиперссылок в групповом договоре",
+    "children" : [ {
+      "name" : "Проверка гиперссылок в групповом договоре",
+      "children" : [ {
+        "name" : "Открытие формы связанного группового договора",
+        "uid" : "dc7feee197b1dffb",
+        "parentUid" : "7fd8595d55b193779d3e8ca8d8f61dbd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1579210466193,
+          "stop" : 1579210481378,
+          "duration" : 15185
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Открытьие формы группового соглашения из существующего договора",
+        "uid" : "2553c52dac0c6fe1",
+        "parentUid" : "7fd8595d55b193779d3e8ca8d8f61dbd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1579210481841,
+          "stop" : 1579210483614,
+          "duration" : 1773
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7fd8595d55b193779d3e8ca8d8f61dbd"
+    } ],
+    "uid" : "37376ab3f164f9c0f08046c764e82a0e"
+  }, {
+    "name" : "Проверка печати искового заявления",
+    "children" : [ {
+      "name" : "Проверка печатной форы искового заявления",
+      "children" : [ {
+        "name" : "Подготовка печатной формы искового заявления",
+        "uid" : "1bd6b3d13c77fb77",
+        "parentUid" : "576bdf46e769c9a518ef159287a3f859",
+        "status" : "failed",
+        "time" : {
+          "start" : 1579210484081,
+          "stop" : 1579210492458,
+          "duration" : 8377
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "576bdf46e769c9a518ef159287a3f859"
+    } ],
+    "uid" : "b86c43c22b1b5c91027f021ddad2c379"
+  }, {
+    "name" : "ТестированиеЗагрузкиДанныхИзМакета",
+    "children" : [ {
+      "name" : "Проверка",
+      "children" : [ {
+        "name" : "Загрузка данных из макета",
+        "uid" : "79672afbc4b30285",
+        "parentUid" : "4728b6f27d49fe884abfc02826f38b93",
+        "status" : "passed",
+        "time" : {
+          "start" : 1579210493021,
+          "stop" : 1579210512195,
+          "duration" : 19174
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4728b6f27d49fe884abfc02826f38b93"
+    } ],
+    "uid" : "1b250fb9ab41124a4459582d77bea2b2"
+  } ]
+}
