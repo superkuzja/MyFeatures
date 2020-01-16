@@ -1,11 +1,11 @@
 {
-  "uid" : "b8583c503e0aead",
+  "uid" : "e3b3b20b407961e1",
   "name" : "Открытьие формы группового соглашения из существующего договора",
   "historyId" : "Проверка гиперссылок в групповом договоре.Открытьие формы группового соглашения из существующего договора",
   "time" : {
-    "start" : 1579209584027,
-    "stop" : 1579209586707,
-    "duration" : 2680
+    "start" : 1579211525721,
+    "stop" : 1579211527619,
+    "duration" : 1898
   },
   "description" : "Как Администратор системы\nХочу проверить работу гиперссылок на форме группового договора\nЧтобы исключить ошибки в работе пользователей с программой",
   "descriptionHtml" : "<p>Как Администратор системы\nХочу проверить работу гиперссылок на форме группового договора\nЧтобы исключить ошибки в работе пользователей с программой</p>\n",
@@ -15,48 +15,48 @@
   "beforeStages" : [ {
     "name" : "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
     "time" : {
-      "start" : 1579209584083,
-      "stop" : 1579209585058,
-      "duration" : 975
+      "start" : 1579211525767,
+      "stop" : 1579211526041,
+      "duration" : 274
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Дано Я открыл новый сеанс TestClient или подключил уже существующий",
       "time" : {
-        "start" : 1579209584083,
-        "stop" : 1579209584102,
-        "duration" : 19
+        "start" : 1579211525767,
+        "stop" : 1579211525785,
+        "duration" : 18
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "И    Я закрыл все окна клиентского приложения",
       "time" : {
-        "start" : 1579209584102,
-        "stop" : 1579209585058,
-        "duration" : 956
+        "start" : 1579211525786,
+        "stop" : 1579211526041,
+        "duration" : 255
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0,
     "stepsCount" : 2,
-    "hasContent" : true
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "testStage" : {
     "description" : "Как Администратор системы\nХочу проверить работу гиперссылок на форме группового договора\nЧтобы исключить ошибки в работе пользователей с программой",
@@ -64,9 +64,9 @@
     "steps" : [ {
       "name" : "Дано Я открываю навигационную ссылку \"e1cib/data/Справочник.ДоговорыКонтрагентов?ref=80c3e04b933b7fcf11e8162d7b0a932e\"",
       "time" : {
-        "start" : 1579209585058,
-        "stop" : 1579209585073,
-        "duration" : 15
+        "start" : 1579211526041,
+        "stop" : 1579211526055,
+        "duration" : 14
       },
       "status" : "passed",
       "steps" : [ ],
@@ -75,16 +75,16 @@
         "name" : "Парам1",
         "value" : "e1cib/data/Справочник.ДоговорыКонтрагентов?ref=80c3e04b933b7fcf11e8162d7b0a932e"
       } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "И Я нажимаю на гиперссылку \"00-00023823\"",
       "time" : {
-        "start" : 1579209585073,
-        "stop" : 1579209586252,
-        "duration" : 1179
+        "start" : 1579211526055,
+        "stop" : 1579211527092,
+        "duration" : 1037
       },
       "status" : "passed",
       "steps" : [ ],
@@ -93,16 +93,16 @@
         "name" : "Парам1",
         "value" : "00-00023823"
       } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Тогда открылась форма \"Групповое соглашение 00-00023823 от 20.02.2018 14:05:05\"",
       "time" : {
-        "start" : 1579209586252,
-        "stop" : 1579209586617,
-        "duration" : 365
+        "start" : 1579211527092,
+        "stop" : 1579211527531,
+        "duration" : 439
       },
       "status" : "passed",
       "steps" : [ ],
@@ -111,16 +111,16 @@
         "name" : "Парам1",
         "value" : "Групповое соглашение 00-00023823 от 20.02.2018 14:05:05"
       } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "И Я закрываю окно \"Групповое соглашение 00-00023823 от 20.02.2018 14:05:05\"",
       "time" : {
-        "start" : 1579209586617,
-        "stop" : 1579209586632,
-        "duration" : 15
+        "start" : 1579211527531,
+        "stop" : 1579211527544,
+        "duration" : 13
       },
       "status" : "passed",
       "steps" : [ ],
@@ -129,16 +129,16 @@
         "name" : "Парам1",
         "value" : "Групповое соглашение 00-00023823 от 20.02.2018 14:05:05"
       } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "И Я закрываю окно \"Договор №54110002377 от 20.02.2018 (Групповой договор контрагента)\"",
       "time" : {
-        "start" : 1579209586633,
-        "stop" : 1579209586707,
-        "duration" : 74
+        "start" : 1579211527544,
+        "stop" : 1579211527619,
+        "duration" : 75
       },
       "status" : "passed",
       "steps" : [ ],
@@ -147,17 +147,17 @@
         "name" : "Парам1",
         "value" : "Договор №54110002377 от 20.02.2018 (Групповой договор контрагента)"
       } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0,
     "stepsCount" : 5,
-    "hasContent" : true
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -181,12 +181,55 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cfc6ee975e72db1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579210481841,
+        "stop" : 1579210483614,
+        "duration" : 1773
+      }
+    }, {
+      "uid" : "68277c09aa55b6cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579209584027,
+        "stop" : 1579209586707,
+        "duration" : 2680
+      }
+    }, {
+      "uid" : "53cdc2572dda2cf3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579209243546,
+        "stop" : 1579209245611,
+        "duration" : 2065
+      }
+    }, {
+      "uid" : "dca9dfeff7e00bb5",
+      "status" : "unknown",
+      "statusDetails" : "Пустой адрес снипета у шага: Дано Я открыл новый сеанс TestClient или подключил уже существующий",
+      "time" : {
+        "start" : 1579209168767,
+        "stop" : 1579209168818,
+        "duration" : 51
+      }
+    }, {
+      "uid" : "cf82a9166be1abed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579208026889,
+        "stop" : 1579208028653,
+        "duration" : 1764
+      }
+    } ],
     "categories" : [ ],
     "tags" : [ "tree" ]
   },
-  "source" : "b8583c503e0aead.json",
+  "source" : "e3b3b20b407961e1.json",
   "parameterValues" : [ ]
 }

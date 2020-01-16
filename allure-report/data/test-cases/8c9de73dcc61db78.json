@@ -1,5 +1,5 @@
 {
-  "uid" : "a27af59376f0c6af",
+  "uid" : "8c9de73dcc61db78",
   "name" : "Подготовка печатной формы искового заявления",
   "historyId" : "Проверка печати искового заявления.Подготовка печатной формы искового заявления",
   "time" : {
@@ -33,10 +33,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "И    Я закрыл все окна клиентского приложения",
       "time" : {
@@ -48,17 +48,17 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0,
     "stepsCount" : 2,
-    "hasContent" : true
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "testStage" : {
     "description" : "Как Администратор системы\nХочу проверить формирование печатной формы искового заявления из формы договора займа\nЧтобы исключить ошибки в работе пользователей при обращениях в полицию",
@@ -79,10 +79,10 @@
         "name" : "Парам1",
         "value" : "e1cib/data/Справочник.ДоговорыКонтрагентов?ref=80c3e04b933b7fcf11e8162d7b0a932e"
       } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "И я нажимаю на кнопку с именем \"ПодменюПечатьВПолициюОбычное_ИсковоеЗаявлениеВПолицию\"",
       "time" : {
@@ -97,10 +97,10 @@
         "name" : "Парам1",
         "value" : "ПодменюПечатьВПолициюОбычное_ИсковоеЗаявлениеВПолицию"
       } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Тогда открылась форма \"Печать искового заявления\"",
       "time" : {
@@ -115,10 +115,10 @@
         "name" : "Парам1",
         "value" : "Печать искового заявления"
       } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "И я меняю значение переключателя с именем \"КомуВид\" на 'Судья'",
       "time" : {
@@ -136,10 +136,10 @@
         "name" : "Парам2",
         "value" : "Судья"
       } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "И в поле \"Должность\" я ввожу текст \"Мировой судья\"",
       "time" : {
@@ -157,10 +157,10 @@
         "name" : "Парам2",
         "value" : "Мировой судья"
       } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "И в поле \"Номер уголовного дела\" я ввожу текст \"131313\"",
       "time" : {
@@ -178,10 +178,10 @@
         "name" : "Парам2",
         "value" : "131313"
       } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "И я нажимаю на кнопку \"Печать\"",
       "time" : {
@@ -196,10 +196,10 @@
         "name" : "Парам1",
         "value" : "Печать"
       } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Тогда открылась форма \"Печать документа\"",
       "time" : {
@@ -214,10 +214,10 @@
         "name" : "Парам1",
         "value" : "Печать документа"
       } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "И Табличный документ \"ТекущаяПечатнаяФорма\" равен макету \"ИсковоеЗаявление\"",
       "time" : {
@@ -237,17 +237,17 @@
         "name" : "Парам2",
         "value" : "ИсковоеЗаявление"
       } ],
-      "shouldDisplayMessage" : true,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0,
     "stepsCount" : 9,
-    "hasContent" : true
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -277,6 +277,6 @@
     "categories" : [ ],
     "tags" : [ "tree" ]
   },
-  "source" : "a27af59376f0c6af.json",
+  "source" : "8c9de73dcc61db78.json",
   "parameterValues" : [ ]
 }

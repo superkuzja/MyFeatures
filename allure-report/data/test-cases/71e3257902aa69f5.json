@@ -1,5 +1,5 @@
 {
-  "uid" : "f0d7665e881607f5",
+  "uid" : "71e3257902aa69f5",
   "name" : "Подготовка печатной формы искового заявления",
   "historyId" : "Проверка печати искового заявления.Подготовка печатной формы искового заявления",
   "time" : {
@@ -35,17 +35,17 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : true,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0,
     "stepsCount" : 1,
-    "hasContent" : true
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "afterStages" : [ ],
   "labels" : [ {
@@ -75,6 +75,6 @@
     "categories" : [ ],
     "tags" : [ "tree" ]
   },
-  "source" : "f0d7665e881607f5.json",
+  "source" : "71e3257902aa69f5.json",
   "parameterValues" : [ ]
 }

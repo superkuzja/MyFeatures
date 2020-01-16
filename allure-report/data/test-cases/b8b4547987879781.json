@@ -1,11 +1,11 @@
 {
-  "uid" : "79672afbc4b30285",
+  "uid" : "b8b4547987879781",
   "name" : "Загрузка данных из макета",
   "historyId" : "ТестированиеЗагрузкиДанныхИзМакета.Загрузка данных из макета",
   "time" : {
-    "start" : 1579210493021,
-    "stop" : 1579210512195,
-    "duration" : 19174
+    "start" : 1579209253228,
+    "stop" : 1579209255912,
+    "duration" : 2684
   },
   "description" : "Как Разработчик тестов\nХочу проверить загрузку маленького макета в информационную базу перед тестированием\nЧтобы убедиться в работоспособности механизма",
   "descriptionHtml" : "<p>Как Разработчик тестов\nХочу проверить загрузку маленького макета в информационную базу перед тестированием\nЧтобы убедиться в работоспособности механизма</p>\n",
@@ -15,48 +15,48 @@
   "beforeStages" : [ {
     "name" : "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
     "time" : {
-      "start" : 1579210493321,
-      "stop" : 1579210494161,
-      "duration" : 840
+      "start" : 1579209253322,
+      "stop" : 1579209254163,
+      "duration" : 841
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Дано Я открыл новый сеанс TestClient или подключил уже существующий",
       "time" : {
-        "start" : 1579210493321,
-        "stop" : 1579210493342,
-        "duration" : 21
+        "start" : 1579209253322,
+        "stop" : 1579209253339,
+        "duration" : 17
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "И    Я закрыл все окна клиентского приложения",
       "time" : {
-        "start" : 1579210493343,
-        "stop" : 1579210494161,
-        "duration" : 818
+        "start" : 1579209253339,
+        "stop" : 1579209254163,
+        "duration" : 824
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0,
     "stepsCount" : 2,
-    "hasContent" : true
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "testStage" : {
     "description" : "Как Разработчик тестов\nХочу проверить загрузку маленького макета в информационную базу перед тестированием\nЧтобы убедиться в работоспособности механизма",
@@ -64,9 +64,9 @@
     "steps" : [ {
       "name" : "Дано существует макет \"fixtures\\ПричиныОтказаВЗайме.mxl\"",
       "time" : {
-        "start" : 1579210494161,
-        "stop" : 1579210495078,
-        "duration" : 917
+        "start" : 1579209254163,
+        "stop" : 1579209254230,
+        "duration" : 67
       },
       "status" : "passed",
       "steps" : [ ],
@@ -75,16 +75,16 @@
         "name" : "Парам1",
         "value" : "fixtures\\ПричиныОтказаВЗайме.mxl"
       } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "И Я загружаю макет \"fixtures\\ПричиныОтказаВЗайме.mxl\" и сохраняю данные из макета в переменную \"ДанныеИзМакета\"",
       "time" : {
-        "start" : 1579210495078,
-        "stop" : 1579210496103,
-        "duration" : 1025
+        "start" : 1579209254230,
+        "stop" : 1579209255652,
+        "duration" : 1422
       },
       "status" : "passed",
       "steps" : [ ],
@@ -96,16 +96,16 @@
         "name" : "Парам2",
         "value" : "ДанныеИзМакета"
       } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Тогда в справочнике \"ПричиныОтказаВЗайме\" появляется элемент с наименованием \"Запрет по линии ФМС\"",
       "time" : {
-        "start" : 1579210496103,
-        "stop" : 1579210496119,
-        "duration" : 16
+        "start" : 1579209255652,
+        "stop" : 1579209255675,
+        "duration" : 23
       },
       "status" : "passed",
       "steps" : [ ],
@@ -117,34 +117,16 @@
         "name" : "Парам2",
         "value" : "Запрет по линии ФМС"
       } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : true
-    }, {
-      "name" : "И Пауза 15",
-      "time" : {
-        "start" : 1579210496120,
-        "stop" : 1579210512000,
-        "duration" : 15880
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "Парам1",
-        "value" : "15"
-      } ],
+      "hasContent" : true,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
-      "stepsCount" : 0,
-      "hasContent" : true
+      "attachmentsCount" : 0
     }, {
       "name" : "И я удаляю загруженные данные \"ДанныеИзМакета\"",
       "time" : {
-        "start" : 1579210512000,
-        "stop" : 1579210512195,
-        "duration" : 195
+        "start" : 1579209255676,
+        "stop" : 1579209255911,
+        "duration" : 235
       },
       "status" : "passed",
       "steps" : [ ],
@@ -153,17 +135,17 @@
         "name" : "Парам1",
         "value" : "ДанныеИзМакета"
       } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0,
-    "stepsCount" : 5,
-    "hasContent" : true
+    "attachmentsCount" : 0
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -187,47 +169,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ {
-      "uid" : "260ca349742e4378",
-      "status" : "passed",
-      "time" : {
-        "start" : 1579209594631,
-        "stop" : 1579209597396,
-        "duration" : 2765
-      }
-    }, {
-      "uid" : "b37e4ef4dbfdb2ce",
-      "status" : "passed",
-      "time" : {
-        "start" : 1579209253228,
-        "stop" : 1579209255912,
-        "duration" : 2684
-      }
-    }, {
-      "uid" : "707be4fc24265d52",
-      "status" : "unknown",
-      "statusDetails" : "Пустой адрес снипета у шага: Дано Я открыл новый сеанс TestClient или подключил уже существующий",
-      "time" : {
-        "start" : 1579209169780,
-        "stop" : 1579209170009,
-        "duration" : 229
-      }
-    }, {
-      "uid" : "c0e48e5cb1e7968d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1579208036655,
-        "stop" : 1579208038473,
-        "duration" : 1818
-      }
-    } ],
     "categories" : [ ],
     "tags" : [ "tree" ]
   },
-  "source" : "79672afbc4b30285.json",
+  "source" : "b8b4547987879781.json",
   "parameterValues" : [ ]
 }

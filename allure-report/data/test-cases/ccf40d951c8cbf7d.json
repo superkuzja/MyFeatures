@@ -1,14 +1,14 @@
 {
-  "uid" : "16cfc2e974fdfc7a",
-  "name" : "Открытьие формы группового соглашения из существующего договора",
-  "historyId" : "Проверка гиперссылок в групповом договоре.Открытьие формы группового соглашения из существующего договора",
+  "uid" : "ccf40d951c8cbf7d",
+  "name" : "Загрузка данных из макета",
+  "historyId" : "ТестированиеЗагрузкиДанныхИзМакета.Загрузка данных из макета",
   "time" : {
-    "start" : 1579209168767,
-    "stop" : 1579209168818,
-    "duration" : 51
+    "start" : 1579209169780,
+    "stop" : 1579209170009,
+    "duration" : 229
   },
-  "description" : "Как Администратор системы\nХочу проверить работу гиперссылок на форме группового договора\nЧтобы исключить ошибки в работе пользователей с программой",
-  "descriptionHtml" : "<p>Как Администратор системы\nХочу проверить работу гиперссылок на форме группового договора\nЧтобы исключить ошибки в работе пользователей с программой</p>\n",
+  "description" : "Как Разработчик тестов\nХочу проверить загрузку маленького макета в информационную базу перед тестированием\nЧтобы убедиться в работоспособности механизма",
+  "descriptionHtml" : "<p>Как Разработчик тестов\nХочу проверить загрузку маленького макета в информационную базу перед тестированием\nЧтобы убедиться в работоспособности механизма</p>\n",
   "status" : "unknown",
   "statusMessage" : "Пустой адрес снипета у шага: Дано Я открыл новый сеанс TestClient или подключил уже существующий",
   "statusTrace" : "",
@@ -17,17 +17,17 @@
   "beforeStages" : [ {
     "name" : "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
     "time" : {
-      "start" : 1579209168816,
-      "stop" : 1579209168818,
-      "duration" : 2
+      "start" : 1579209170008,
+      "stop" : 1579209170009,
+      "duration" : 1
     },
     "status" : "unknown",
     "steps" : [ {
       "name" : "Дано Я открыл новый сеанс TestClient или подключил уже существующий",
       "time" : {
-        "start" : 1579209168816,
-        "stop" : 1579209168818,
-        "duration" : 2
+        "start" : 1579209170008,
+        "stop" : 1579209170009,
+        "duration" : 1
       },
       "status" : "unknown",
       "statusMessage" : "Пустой адрес снипета у шага: Дано Я открыл новый сеанс TestClient или подключил уже существующий",
@@ -35,17 +35,17 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : true,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0,
     "stepsCount" : 1,
-    "hasContent" : true
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "afterStages" : [ ],
   "labels" : [ {
@@ -59,10 +59,10 @@
     "value" : "Microsoft Windows 10 version 10.0  (Build 18362)"
   }, {
     "name" : "feature",
-    "value" : "Проверка гиперссылок в групповом договоре"
+    "value" : "ТестированиеЗагрузкиДанныхИзМакета"
   }, {
     "name" : "story",
-    "value" : "Проверка гиперссылок в групповом договоре"
+    "value" : "Проверка"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -75,6 +75,6 @@
     "categories" : [ ],
     "tags" : [ "tree" ]
   },
-  "source" : "16cfc2e974fdfc7a.json",
+  "source" : "ccf40d951c8cbf7d.json",
   "parameterValues" : [ ]
 }

@@ -4,125 +4,8 @@
   "children" : [ {
     "name" : "Microsoft Windows 10 version 10.0  (Build 18362)",
     "children" : [ {
-      "name" : "Открытие формы связанного группового договора",
-      "uid" : "a00190e89a7855c0",
-      "parentUid" : "58b822ee0355768a8dcbaf6ff32429ff",
-      "status" : "passed",
-      "time" : {
-        "start" : 1579209229209,
-        "stop" : 1579209243007,
-        "duration" : 13798
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
       "name" : "Загрузка данных из макета",
-      "uid" : "707be4fc24265d52",
-      "parentUid" : "58b822ee0355768a8dcbaf6ff32429ff",
-      "status" : "unknown",
-      "time" : {
-        "start" : 1579209169780,
-        "stop" : 1579209170009,
-        "duration" : 229
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Открытие формы связанного группового договора",
-      "uid" : "dc7feee197b1dffb",
-      "parentUid" : "58b822ee0355768a8dcbaf6ff32429ff",
-      "status" : "passed",
-      "time" : {
-        "start" : 1579210466193,
-        "stop" : 1579210481378,
-        "duration" : 15185
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Загрузка данных из макета",
-      "uid" : "c0e48e5cb1e7968d",
-      "parentUid" : "58b822ee0355768a8dcbaf6ff32429ff",
-      "status" : "passed",
-      "time" : {
-        "start" : 1579208036655,
-        "stop" : 1579208038473,
-        "duration" : 1818
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Загрузка данных из макета",
-      "uid" : "79672afbc4b30285",
-      "parentUid" : "58b822ee0355768a8dcbaf6ff32429ff",
-      "status" : "passed",
-      "time" : {
-        "start" : 1579210493021,
-        "stop" : 1579210512195,
-        "duration" : 19174
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Открытьие формы группового соглашения из существующего договора",
-      "uid" : "f89163429e668ad5",
-      "parentUid" : "58b822ee0355768a8dcbaf6ff32429ff",
-      "status" : "passed",
-      "time" : {
-        "start" : 1579208026889,
-        "stop" : 1579208028653,
-        "duration" : 1764
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Подготовка печатной формы искового заявления",
-      "uid" : "a27af59376f0c6af",
-      "parentUid" : "58b822ee0355768a8dcbaf6ff32429ff",
-      "status" : "failed",
-      "time" : {
-        "start" : 1579209245983,
-        "stop" : 1579209252856,
-        "duration" : 6873
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Открытьие формы группового соглашения из существующего договора",
-      "uid" : "16cfc2e974fdfc7a",
-      "parentUid" : "58b822ee0355768a8dcbaf6ff32429ff",
-      "status" : "unknown",
-      "time" : {
-        "start" : 1579209168767,
-        "stop" : 1579209168818,
-        "duration" : 51
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Загрузка данных из макета",
-      "uid" : "260ca349742e4378",
-      "parentUid" : "58b822ee0355768a8dcbaf6ff32429ff",
-      "status" : "passed",
-      "time" : {
-        "start" : 1579209594631,
-        "stop" : 1579209597396,
-        "duration" : 2765
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Загрузка данных из макета",
-      "uid" : "b37e4ef4dbfdb2ce",
+      "uid" : "b8b4547987879781",
       "parentUid" : "58b822ee0355768a8dcbaf6ff32429ff",
       "status" : "passed",
       "time" : {
@@ -134,99 +17,34 @@
       "newFailed" : false,
       "parameters" : [ ]
     }, {
-      "name" : "Открытьие формы группового соглашения из существующего договора",
-      "uid" : "b8583c503e0aead",
+      "name" : "Загрузка данных из макета",
+      "uid" : "a994f1d9aa0d0a1",
       "parentUid" : "58b822ee0355768a8dcbaf6ff32429ff",
       "status" : "passed",
       "time" : {
-        "start" : 1579209584027,
-        "stop" : 1579209586707,
-        "duration" : 2680
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Подготовка печатной формы искового заявления",
-      "uid" : "c2f53a5318a2a4b3",
-      "parentUid" : "58b822ee0355768a8dcbaf6ff32429ff",
-      "status" : "failed",
-      "time" : {
-        "start" : 1579208029124,
-        "stop" : 1579208036092,
-        "duration" : 6968
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Открытие формы связанного группового договора",
-      "uid" : "a1c7dabb4a6fadad",
-      "parentUid" : "58b822ee0355768a8dcbaf6ff32429ff",
-      "status" : "passed",
-      "time" : {
-        "start" : 1579209568613,
-        "stop" : 1579209583431,
-        "duration" : 14818
+        "start" : 1579211534947,
+        "stop" : 1579211553215,
+        "duration" : 18268
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Открытьие формы группового соглашения из существующего договора",
-      "uid" : "2553c52dac0c6fe1",
+      "uid" : "e3b3b20b407961e1",
       "parentUid" : "58b822ee0355768a8dcbaf6ff32429ff",
       "status" : "passed",
       "time" : {
-        "start" : 1579210481841,
-        "stop" : 1579210483614,
-        "duration" : 1773
+        "start" : 1579211525721,
+        "stop" : 1579211527619,
+        "duration" : 1898
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Подготовка печатной формы искового заявления",
-      "uid" : "1bd6b3d13c77fb77",
-      "parentUid" : "58b822ee0355768a8dcbaf6ff32429ff",
-      "status" : "failed",
-      "time" : {
-        "start" : 1579210484081,
-        "stop" : 1579210492458,
-        "duration" : 8377
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Открытие формы связанного группового договора",
-      "uid" : "30185058e3e571e1",
-      "parentUid" : "58b822ee0355768a8dcbaf6ff32429ff",
-      "status" : "passed",
-      "time" : {
-        "start" : 1579208013390,
-        "stop" : 1579208026391,
-        "duration" : 13001
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Открытьие формы группового соглашения из существующего договора",
-      "uid" : "cdd4f9c88a03a561",
-      "parentUid" : "58b822ee0355768a8dcbaf6ff32429ff",
-      "status" : "passed",
-      "time" : {
-        "start" : 1579209243546,
-        "stop" : 1579209245611,
-        "duration" : 2065
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Подготовка печатной формы искового заявления",
-      "uid" : "532581cd27b0d694",
+      "uid" : "8ebde48fa2eec76f",
       "parentUid" : "58b822ee0355768a8dcbaf6ff32429ff",
       "status" : "failed",
       "time" : {
@@ -239,7 +57,150 @@
       "parameters" : [ ]
     }, {
       "name" : "Открытие формы связанного группового договора",
-      "uid" : "f5b15d3f72d9e48d",
+      "uid" : "d64aa42dc24517dd",
+      "parentUid" : "58b822ee0355768a8dcbaf6ff32429ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579210466193,
+        "stop" : 1579210481378,
+        "duration" : 15185
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Подготовка печатной формы искового заявления",
+      "uid" : "8c9de73dcc61db78",
+      "parentUid" : "58b822ee0355768a8dcbaf6ff32429ff",
+      "status" : "failed",
+      "time" : {
+        "start" : 1579209245983,
+        "stop" : 1579209252856,
+        "duration" : 6873
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Открытие формы связанного группового договора",
+      "uid" : "f27f5721795fe9c4",
+      "parentUid" : "58b822ee0355768a8dcbaf6ff32429ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579209568613,
+        "stop" : 1579209583431,
+        "duration" : 14818
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Подготовка печатной формы искового заявления",
+      "uid" : "d0b010d9b15fb3da",
+      "parentUid" : "58b822ee0355768a8dcbaf6ff32429ff",
+      "status" : "failed",
+      "time" : {
+        "start" : 1579208029124,
+        "stop" : 1579208036092,
+        "duration" : 6968
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Загрузка данных из макета",
+      "uid" : "ccf40d951c8cbf7d",
+      "parentUid" : "58b822ee0355768a8dcbaf6ff32429ff",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1579209169780,
+        "stop" : 1579209170009,
+        "duration" : 229
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Загрузка данных из макета",
+      "uid" : "69ec1783ffc36639",
+      "parentUid" : "58b822ee0355768a8dcbaf6ff32429ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579210493021,
+        "stop" : 1579210512195,
+        "duration" : 19174
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Открытьие формы группового соглашения из существующего договора",
+      "uid" : "68277c09aa55b6cf",
+      "parentUid" : "58b822ee0355768a8dcbaf6ff32429ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579209584027,
+        "stop" : 1579209586707,
+        "duration" : 2680
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Открытьие формы группового соглашения из существующего договора",
+      "uid" : "cf82a9166be1abed",
+      "parentUid" : "58b822ee0355768a8dcbaf6ff32429ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579208026889,
+        "stop" : 1579208028653,
+        "duration" : 1764
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Подготовка печатной формы искового заявления",
+      "uid" : "4dc8e682a2b55b5",
+      "parentUid" : "58b822ee0355768a8dcbaf6ff32429ff",
+      "status" : "failed",
+      "time" : {
+        "start" : 1579210484081,
+        "stop" : 1579210492458,
+        "duration" : 8377
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Открытие формы связанного группового договора",
+      "uid" : "43ec9e4640897cf3",
+      "parentUid" : "58b822ee0355768a8dcbaf6ff32429ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579208013390,
+        "stop" : 1579208026391,
+        "duration" : 13001
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Открытьие формы группового соглашения из существующего договора",
+      "uid" : "53cdc2572dda2cf3",
+      "parentUid" : "58b822ee0355768a8dcbaf6ff32429ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579209243546,
+        "stop" : 1579209245611,
+        "duration" : 2065
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Открытие формы связанного группового договора",
+      "uid" : "2165863bff0d63bf",
       "parentUid" : "58b822ee0355768a8dcbaf6ff32429ff",
       "status" : "unknown",
       "time" : {
@@ -251,14 +212,105 @@
       "newFailed" : false,
       "parameters" : [ ]
     }, {
+      "name" : "Загрузка данных из макета",
+      "uid" : "efdcf8f46a2d3af3",
+      "parentUid" : "58b822ee0355768a8dcbaf6ff32429ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579209594631,
+        "stop" : 1579209597396,
+        "duration" : 2765
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Открытие формы связанного группового договора",
+      "uid" : "a2438f32d25f5d7a",
+      "parentUid" : "58b822ee0355768a8dcbaf6ff32429ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579209229209,
+        "stop" : 1579209243007,
+        "duration" : 13798
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Загрузка данных из макета",
+      "uid" : "3daa636cc9724561",
+      "parentUid" : "58b822ee0355768a8dcbaf6ff32429ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579208036655,
+        "stop" : 1579208038473,
+        "duration" : 1818
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Открытьие формы группового соглашения из существующего договора",
+      "uid" : "dca9dfeff7e00bb5",
+      "parentUid" : "58b822ee0355768a8dcbaf6ff32429ff",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1579209168767,
+        "stop" : 1579209168818,
+        "duration" : 51
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
       "name" : "Подготовка печатной формы искового заявления",
-      "uid" : "f0d7665e881607f5",
+      "uid" : "88358c28110d20d3",
+      "parentUid" : "58b822ee0355768a8dcbaf6ff32429ff",
+      "status" : "failed",
+      "time" : {
+        "start" : 1579211527958,
+        "stop" : 1579211534575,
+        "duration" : 6617
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Открытьие формы группового соглашения из существующего договора",
+      "uid" : "cfc6ee975e72db1",
+      "parentUid" : "58b822ee0355768a8dcbaf6ff32429ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579210481841,
+        "stop" : 1579210483614,
+        "duration" : 1773
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Подготовка печатной формы искового заявления",
+      "uid" : "71e3257902aa69f5",
       "parentUid" : "58b822ee0355768a8dcbaf6ff32429ff",
       "status" : "unknown",
       "time" : {
         "start" : 1579209169175,
         "stop" : 1579209169464,
         "duration" : 289
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Открытие формы связанного группового договора",
+      "uid" : "5a5e5389cb66e974",
+      "parentUid" : "58b822ee0355768a8dcbaf6ff32429ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579211512500,
+        "stop" : 1579211525291,
+        "duration" : 12791
       },
       "flaky" : false,
       "newFailed" : false,

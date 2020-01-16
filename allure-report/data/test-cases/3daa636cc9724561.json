@@ -1,11 +1,11 @@
 {
-  "uid" : "260ca349742e4378",
+  "uid" : "3daa636cc9724561",
   "name" : "Загрузка данных из макета",
   "historyId" : "ТестированиеЗагрузкиДанныхИзМакета.Загрузка данных из макета",
   "time" : {
-    "start" : 1579209594631,
-    "stop" : 1579209597396,
-    "duration" : 2765
+    "start" : 1579208036655,
+    "stop" : 1579208038473,
+    "duration" : 1818
   },
   "description" : "Как Разработчик тестов\nХочу проверить загрузку маленького макета в информационную базу перед тестированием\nЧтобы убедиться в работоспособности механизма",
   "descriptionHtml" : "<p>Как Разработчик тестов\nХочу проверить загрузку маленького макета в информационную базу перед тестированием\nЧтобы убедиться в работоспособности механизма</p>\n",
@@ -15,48 +15,48 @@
   "beforeStages" : [ {
     "name" : "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
     "time" : {
-      "start" : 1579209594754,
-      "stop" : 1579209595186,
-      "duration" : 432
+      "start" : 1579208036801,
+      "stop" : 1579208037121,
+      "duration" : 320
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Дано Я открыл новый сеанс TestClient или подключил уже существующий",
       "time" : {
-        "start" : 1579209594754,
-        "stop" : 1579209594772,
-        "duration" : 18
+        "start" : 1579208036801,
+        "stop" : 1579208036825,
+        "duration" : 24
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "И    Я закрыл все окна клиентского приложения",
       "time" : {
-        "start" : 1579209594772,
-        "stop" : 1579209595186,
-        "duration" : 414
+        "start" : 1579208036825,
+        "stop" : 1579208037121,
+        "duration" : 296
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0,
     "stepsCount" : 2,
-    "hasContent" : true
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "testStage" : {
     "description" : "Как Разработчик тестов\nХочу проверить загрузку маленького макета в информационную базу перед тестированием\nЧтобы убедиться в работоспособности механизма",
@@ -64,9 +64,9 @@
     "steps" : [ {
       "name" : "Дано существует макет \"fixtures\\ПричиныОтказаВЗайме.mxl\"",
       "time" : {
-        "start" : 1579209595186,
-        "stop" : 1579209596001,
-        "duration" : 815
+        "start" : 1579208037121,
+        "stop" : 1579208037197,
+        "duration" : 76
       },
       "status" : "passed",
       "steps" : [ ],
@@ -75,16 +75,16 @@
         "name" : "Парам1",
         "value" : "fixtures\\ПричиныОтказаВЗайме.mxl"
       } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "И Я загружаю макет \"fixtures\\ПричиныОтказаВЗайме.mxl\" и сохраняю данные из макета в переменную \"ДанныеИзМакета\"",
       "time" : {
-        "start" : 1579209596001,
-        "stop" : 1579209597181,
-        "duration" : 1180
+        "start" : 1579208037197,
+        "stop" : 1579208038171,
+        "duration" : 974
       },
       "status" : "passed",
       "steps" : [ ],
@@ -96,16 +96,16 @@
         "name" : "Парам2",
         "value" : "ДанныеИзМакета"
       } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Тогда в справочнике \"ПричиныОтказаВЗайме\" появляется элемент с наименованием \"Запрет по линии ФМС\"",
       "time" : {
-        "start" : 1579209597181,
-        "stop" : 1579209597197,
-        "duration" : 16
+        "start" : 1579208038171,
+        "stop" : 1579208038206,
+        "duration" : 35
       },
       "status" : "passed",
       "steps" : [ ],
@@ -117,16 +117,16 @@
         "name" : "Парам2",
         "value" : "Запрет по линии ФМС"
       } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "И я удаляю загруженные данные \"ДанныеИзМакета\"",
       "time" : {
-        "start" : 1579209597197,
-        "stop" : 1579209597396,
-        "duration" : 199
+        "start" : 1579208038206,
+        "stop" : 1579208038473,
+        "duration" : 267
       },
       "status" : "passed",
       "steps" : [ ],
@@ -135,17 +135,17 @@
         "name" : "Парам1",
         "value" : "ДанныеИзМакета"
       } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0,
     "stepsCount" : 4,
-    "hasContent" : true
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -175,6 +175,6 @@
     "categories" : [ ],
     "tags" : [ "tree" ]
   },
-  "source" : "260ca349742e4378.json",
+  "source" : "3daa636cc9724561.json",
   "parameterValues" : [ ]
 }

@@ -7,26 +7,26 @@
       "name" : "Проверка гиперссылок в групповом договоре",
       "children" : [ {
         "name" : "Открытие формы связанного группового договора",
-        "uid" : "dc7feee197b1dffb",
+        "uid" : "5a5e5389cb66e974",
         "parentUid" : "7fd8595d55b193779d3e8ca8d8f61dbd",
         "status" : "passed",
         "time" : {
-          "start" : 1579210466193,
-          "stop" : 1579210481378,
-          "duration" : 15185
+          "start" : 1579211512500,
+          "stop" : 1579211525291,
+          "duration" : 12791
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Открытьие формы группового соглашения из существующего договора",
-        "uid" : "2553c52dac0c6fe1",
+        "uid" : "e3b3b20b407961e1",
         "parentUid" : "7fd8595d55b193779d3e8ca8d8f61dbd",
         "status" : "passed",
         "time" : {
-          "start" : 1579210481841,
-          "stop" : 1579210483614,
-          "duration" : 1773
+          "start" : 1579211525721,
+          "stop" : 1579211527619,
+          "duration" : 1898
         },
         "flaky" : false,
         "newFailed" : false,
@@ -41,13 +41,13 @@
       "name" : "Проверка печатной форы искового заявления",
       "children" : [ {
         "name" : "Подготовка печатной формы искового заявления",
-        "uid" : "1bd6b3d13c77fb77",
+        "uid" : "88358c28110d20d3",
         "parentUid" : "576bdf46e769c9a518ef159287a3f859",
         "status" : "failed",
         "time" : {
-          "start" : 1579210484081,
-          "stop" : 1579210492458,
-          "duration" : 8377
+          "start" : 1579211527958,
+          "stop" : 1579211534575,
+          "duration" : 6617
         },
         "flaky" : false,
         "newFailed" : false,
@@ -62,13 +62,13 @@
       "name" : "Проверка",
       "children" : [ {
         "name" : "Загрузка данных из макета",
-        "uid" : "79672afbc4b30285",
+        "uid" : "a994f1d9aa0d0a1",
         "parentUid" : "4728b6f27d49fe884abfc02826f38b93",
         "status" : "passed",
         "time" : {
-          "start" : 1579210493021,
-          "stop" : 1579210512195,
-          "duration" : 19174
+          "start" : 1579211534947,
+          "stop" : 1579211553215,
+          "duration" : 18268
         },
         "flaky" : false,
         "newFailed" : false,
